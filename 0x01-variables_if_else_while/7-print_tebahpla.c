@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * print alphabet in reverse
- * 
+ *
  * Print a new line
  * Return: Always 0 (Success)
 */

@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * print the numbers of base 16 (hexadecimal) in lowercase
- * 
+ *
  * Print a new line
  * Return: Always 0 (Success)
 */

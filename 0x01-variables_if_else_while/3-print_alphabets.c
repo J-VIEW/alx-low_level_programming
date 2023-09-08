@@ -10,12 +10,13 @@ int main(void)
 {
 char lowercase = 'a';
 char uppercase = 'A';
-for (int i = 0; i < 26; i++)
+int i;
+for (i = 0; i < 26; i++)
 {
 putchar(lowercase);
 lowercase++;
 }
-for (int i = 0; i < 26; i++)
+for (i = 0; i < 26; i++)
 {
 putchar(uppercase);
 uppercase++;

@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
  * main - Entry point
- *changing lower case and upper case
- *adding a new line after 
- *
+ * changing lower case and upper case
+ * adding a new line after
  * Return: Always 0 (Success)
  */
 int main(void)

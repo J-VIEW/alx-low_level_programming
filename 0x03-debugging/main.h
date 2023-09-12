@@ -1,0 +1,22 @@
+#ifndef MAIN_H
+#define MAIN_H
+
+#include <stdio.h>
+    int month;
+    int day;
+    int year;
+
+    month = 2;
+    day = 29;
+    year = 2000;
+
+    printf("Date: %02d/%02d/%04d\n", month, day, year);
+
+    print_remaining_days(month, day, year);
+
+    void positive_or_negative(int i);
+
+    int largest_number(int a, int b, int c);
+
+#endif /* MAIN_H */
+

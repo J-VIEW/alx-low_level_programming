@@ -10,7 +10,10 @@ int i = 0;
 
 while (str[i] != '\0')
 {
+if (str[i] != '\n' && str[i] != '\r' && str[i] != '\t')
+{
 _putchar(str[i]);
+}
 i += 2;
 }
 

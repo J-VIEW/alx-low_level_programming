@@ -13,7 +13,11 @@ void times_table(void)
         {
             result = row * column;
 
-            if (column != 0)
+            if (column == 0)
+            {
+                _putchar('0');
+            }
+            else
             {
                 _putchar(',');
                 _putchar(' ');
@@ -24,16 +28,16 @@ void times_table(void)
                 }
             }
 
-            if (result < 10 && column != 0)
+            if (result < 10)
             {
                 _putchar(' ');
+                _putchar(result + '0');
             }
             else
             {
                 _putchar((result / 10) + '0');
+                _putchar((result % 10) + '0');
             }
-
-            _putchar((result % 10) + '0');
         }
         _putchar('\n');
     }

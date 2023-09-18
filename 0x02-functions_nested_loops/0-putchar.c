@@ -2,6 +2,7 @@
 /**
  * main - entry and code checker
  *
+ * return 0 - success
  */
 int main(void)
 {

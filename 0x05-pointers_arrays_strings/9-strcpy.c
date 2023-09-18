@@ -21,5 +21,5 @@ i++;
 /* Add the null terminator to the end of the copied string */
 dest[i] = '\0';
 
-return dest;
+return (dest);
 }

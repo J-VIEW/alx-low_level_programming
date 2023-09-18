@@ -17,6 +17,8 @@ int _abs(int n);
 int print_last_digit(int n);
 /* Function prototype for jack_bauer function */
 void jack_bauer(void);
+/* Function prototype for times_table function */
+void times_table(void);
 
 
 /* _putchar function prototype */

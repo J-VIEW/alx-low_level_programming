@@ -20,6 +20,7 @@ void jack_bauer(void);
 /* Function prototype for times_table function */
 void times_table(void);
 int add(int, int);
+void print_to_98(int n);
 
 /* _putchar function prototype */
 int _putchar(char c);

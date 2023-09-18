@@ -14,7 +14,7 @@ int _abs(int n);
 /* Function prototype for print_sign function */
 int print_sign(int n);
 int _abs(int n);
-
+int print_last_digit(int n);
 
 /* _putchar function prototype */
 int _putchar(char c);

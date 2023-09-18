@@ -13,6 +13,7 @@ int _isalpha(int c);
 int _abs(int n);
 /* Function prototype for print_sign function */
 int print_sign(int n);
+int _abs(int n);
 
 
 /* _putchar function prototype */

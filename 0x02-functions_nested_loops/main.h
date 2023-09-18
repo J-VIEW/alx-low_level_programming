@@ -5,6 +5,8 @@
 void print_alphabet(void);
 /* Function prototype for print_alphabet_x10 function */
 void print_alphabet_x10(void);
+/* Function prototype for _islower function */
+int _islower(int c);
 
 /* _putchar function prototype */
 int _putchar(char c);

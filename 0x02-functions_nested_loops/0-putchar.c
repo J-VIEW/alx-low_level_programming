@@ -1,4 +1,8 @@
 #include "main.h"
+/**
+ * main - entry and code checker
+ *
+ */
 int main(void)
 {
 _putchar('_');
